@@ -144,6 +144,7 @@ curl http://localhost:8080
 cat $MOUNT_POINT/access.log
 ```
 > Devemos ter 6 registros de log nesse caso, 3 do contêiner anterior e 3 do atual
+![alt text](image.png)
 11. Limpar tudo
 ```
 docker stop new_nginx_container
